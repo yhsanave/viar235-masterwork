@@ -27,9 +27,9 @@ All examples are default values except `-mc`, which defaults to `none`. If `-mc`
 | -g, --grid | str | -g 10x10 | Set the resolution of the grid in tiles. "widthxheight" |
 | -c, --colors | int | -c 3 | Number of random colors to use |
 | -o, --output | str | -o mondrian | Output filename, do not include .png |
-| -mc, --manualcolor | str | -mc mondcolor.txt | Manually define colros with a file |
+| -mc, --manualcolor | str | -mc mondcolor.txt | Manually define colors with a file |
 | -cd, --colordensity | int | -cd 30 | Probability of a tile being colored as an integer percentage (30 = 30% chance) |
 
-### Color File Format
+## Color File Format
 
 Each line represents an RGB color expressed as three floats from 0 to 1 separated by commas. (e.g. 0,0,0 is black, 1,1,1 is white, and .5,.5,.5 is grey)
