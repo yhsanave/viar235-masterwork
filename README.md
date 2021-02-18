@@ -1,6 +1,6 @@
 # Masterwork
 
-Generative Art in the style of Jackson Pollock and Piet Mondrian
+Generative Art in the style of Jackson Pollock and Piet Mondrian.
 
 ## Command Line Arguments:
 
