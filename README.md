@@ -19,7 +19,7 @@ All examples are default values except `-mc`, which defaults to `none`. If `-mc`
 | -o, --output | str | -o pollock | Output filename, do not include .png |
 | -mc, --manualcolor | str | -mc pollockcolor.txt | Manually define colors with a file |
 
-### mondiran.py
+### mondrian.py
 
 | Flag | Argument Type | Example | Description |
 | ---- | ------------- | ------- | ----------- |
@@ -32,4 +32,4 @@ All examples are default values except `-mc`, which defaults to `none`. If `-mc`
 
 ## Color File Format
 
-Each line represents an RGB color expressed as three floats from 0 to 1 separated by commas. (e.g. 0,0,0 is black, 1,1,1 is white, and .5,.5,.5 is grey)
+Each line represents an RGB color expressed as three floats from 0 to 1 separated by commas. (e.g. `0,0,0` is black, `1,1,1` is white, and `.5,.5,.5` is grey)
